@@ -1,0 +1,16 @@
+domain: my.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: sample-operator
+repo: github.com/bells17/sample-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.domain
+  group: sample-operator
+  kind: Sample
+  path: github.com/bells17/sample-operator/api/v1beta1
+  version: v1beta1
+version: "3"

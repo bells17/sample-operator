@@ -1,0 +1,6 @@
+apiVersion: sample-operator.my.domain/v1beta1
+kind: Sample
+metadata:
+  name: sample-sample
+spec:
+  # TODO(user): Add fields here
